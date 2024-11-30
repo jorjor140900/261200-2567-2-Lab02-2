@@ -30,7 +30,7 @@ class Book {
         double discountAmount = (discountPercentage / 100) * price;
         double newPrice = price - discountAmount;
 
-        setPrice(newPrice);  // Correct method call
+        setPrice(newPrice);
 
         System.out.printf("Discount of %.2f%% applied. New price: $%.2f%n", discountPercentage, newPrice);
     }
